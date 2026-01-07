@@ -27,6 +27,31 @@ Identifiers are never:
 
 Any transformation beyond validation invalidates the identifier.
 
+### Identifier Subtypes and Admissibility
+
+Identifiers in this dataset serve different purposes and are not interchangeable.
+
+They fall into the following subtypes:
+
+- **Candidate system identifiers**  
+  Identifiers that may refer to a physical solar installation but require
+  validation for stability, consistency, and uniqueness before system-level use.
+
+- **Provider or reporting identifiers**  
+  Identifiers assigned by programs, utilities, or administrators to track
+  reports or applications. These identifiers represent administrative records,
+  not physical systems.
+
+- **Row-level identifiers**  
+  Identifiers used solely to distinguish rows. They have no real-world entity
+  meaning beyond record differentiation.
+
+Provider and reporting identifiers are **explicitly prohibited** from serving
+as system identifiers under any circumstances.
+
+Promotion of any identifier to system identity without explicit validation
+constitutes a hard violation.
+
 ---
 
 ## temporal
