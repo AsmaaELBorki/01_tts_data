@@ -13,6 +13,35 @@ All downstream repositories inherit these constraints unchanged.
 
 **Role:** temporal
 
+---
+
+## Identifier Validity and Admissibility
+
+Identifiers used to represent analytical entities must satisfy strict admissibility criteria.
+
+An identifier is considered valid for entity-level use only if it:
+- is stable across reporting instances,
+- is consistent across all rows referring to the same real-world object,
+- and is not reused across distinct physical systems.
+
+Identifiers assigned for administrative, programmatic, or reporting purposes
+do not satisfy these criteria by default.
+
+### Violations
+
+The following constitute **hard violations** when an identifier is used for
+system-level analysis:
+
+- instability of identifier values across reports,
+- conflicting identifier values within a candidate entity group,
+- reuse of an identifier across multiple physical systems,
+- promotion of a provider or reporting identifier to system identity.
+
+Hard violations prohibit entity construction and require exclusion or deferral
+to upstream resolution.
+
+---
+
 ### Raw State
 
 - source type: string
