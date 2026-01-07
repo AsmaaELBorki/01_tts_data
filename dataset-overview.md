@@ -57,6 +57,22 @@ As a result, the dataset supports descriptive and comparative analysis of **repo
 
 ---
 
+## What a Row Represents (and Does Not Represent)
+
+Each row in the Tracking the Sun dataset represents a reported administrative record,
+not a direct measurement of a physical solar installation.
+
+Multiple rows may refer to the same physical system due to:
+- updates to reported information,
+- participation in multiple programs,
+- or differing reporting obligations across jurisdictions and time.
+
+No row in this dataset is assumed to uniquely represent a system.
+System-level entities are not defined at the raw data level and may not be inferred
+from row-level structure alone.
+
+---
+
 ## Relationship to Downstream Analysis
 
 This document records what the dataset contains and how it was reported.
