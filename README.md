@@ -1,6 +1,6 @@
-# Tracking the Sun — Program Canon and Analytical Architecture
+# TTS REPO 1: Data Generation & Measurement
 
-## What Question Does This Program Answer?
+## Core question
 
 **How can we determine whether a residential solar system in California is appropriately sized for its context — or meaningfully over- or under-sized — using only observed installation data?**
 
@@ -14,8 +14,7 @@ The resulting framework enables:
 These outputs are relevant to:
 - analysts studying residential solar adoption and design patterns  
 - energy modelers seeking empirically grounded baselines  
-- practitioners evaluating system sizing norms and deviations  
-- hiring managers assessing analytical rigor beyond tool usage  
+- practitioners evaluating system sizing norms and deviations   
 
 ---
 

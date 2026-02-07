@@ -57,7 +57,7 @@ As a result, the dataset supports descriptive and comparative analysis of **repo
 
 ---
 
-## What a Row Represents (and Does Not Represent)
+## What a Row Represents
 
 Each row in the Tracking the Sun dataset represents a reported administrative record,
 not a direct measurement of a physical solar installation.
